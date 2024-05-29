@@ -1,0 +1,50 @@
+.navbar{
+  display:flex;
+  align-items: center;
+  background-color: darkgrey;
+  height: 70px;
+  
+}
+.nav-elements{
+  display: flex;
+}
+.nav-logo{
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  mix-blend-mode: multiply;
+}
+.nav-logo>img{
+  width: 80px;
+  height: 80px;
+}
+.nav-elements > li{
+  list-style: none;
+  padding: 10px;
+  
+}
+.card>img{
+  border-radius: 10px;
+}
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  margin:20px 20px ;
+  text-align: center; 
+  
+}
+.card-list {
+  display: flex;
+  overflow-x: auto;
+  /* overflow-y: auto;
+  max-height: 500px; */
+  max-width: 800px;
+}
+.card-list::-webkit-scrollbar{
+  width: 0;
+}
